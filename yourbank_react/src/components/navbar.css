@@ -1,0 +1,118 @@
+
+.app__navbar {
+    display: flex;
+    position: fixed;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--gray-11);
+    border: 1px solid var(--gray-15);
+    border-radius: 100px;
+    margin-top: 2rem;
+    z-index: 10;
+  }
+  
+  .app__navbar-logo{
+    margin-left: 1rem;
+  }
+  
+  .app__navbar-logo img{
+    width: 155.83px;
+    height: 40px;
+  }
+  
+  .app__navbar-links {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 300;
+  }
+  
+  .app__navbar-links li a {
+    position: relative;
+    color: var(--absolute-white);
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--gray-11);
+  }
+
+  .app__navbar-links li a.active {
+    background-color: var(--gray-15);
+  }
+  
+  .app__navbar-links li a:hover {
+    color: var(--green-60);
+  }
+
+.app__navbar-login {
+    display: flex;
+    align-items: center;
+}
+
+
+  .app__navbar-login a{
+    color: var(--absolute-white);
+    margin-right: 1rem;
+    font-size: 14px;
+    cursor: not-allowed;
+  }
+
+.app__navbar-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__navbar-links,
+    .app__navbar-login {
+        display: none;
+    }
+
+    .app__navbar-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .app__navbar-mobile div:first-child {
+        background-color: var(--green-60);
+        padding: 0.4rem 0.8rem;
+        font-size: 20px;
+        border-radius: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .app__navbar-mobile-links {
+      position: absolute;
+      right: 10px;
+      top: 30px;
+      background-color: var(--gray-11);
+      border: 1px solid var(--gray-15);
+      border-radius: 0 0 2rem 2rem;
+      list-style: none;
+      padding: 0.5rem 2rem;
+    }
+
+    .app__navbar-mobile-links li {
+      margin: 1rem 0;
+    }
+
+    .app__navbar-mobile-links li a {
+      text-decoration: none;
+      color: var(--absolute-white);
+      font-size: 14px;
+      font-weight: 300;
+      transition: all 0.5 ease-in-out;
+    }
+
+    .app__navbar-mobile-links li a:hover {
+      color: var(--green-60);
+    }
+    
+}

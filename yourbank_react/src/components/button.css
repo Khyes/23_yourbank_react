@@ -1,0 +1,15 @@
+button {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    border-radius: 2rem;
+    padding: 0.8rem 2rem;
+    margin-right: 1rem;
+    background-color: var(--green-60);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier( 0.68, -0.55, 0.265, 1.55 );
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
