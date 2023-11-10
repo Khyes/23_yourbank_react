@@ -112,7 +112,7 @@
 
 }
 
-@media screen and (max-width: 1191px) {
+@media screen and (max-width: 1201px) {
     .app__products-list-item p{
         font-size: 13px;
     }

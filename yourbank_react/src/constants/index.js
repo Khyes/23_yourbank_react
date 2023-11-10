@@ -145,3 +145,26 @@ export const navLinks = [
     },
 
   ];
+
+  export const features = [
+    {
+      id: "features1",
+      title: "24/7 Account Access",
+      content: "Enjoy the convenience of accessing your accounts anytime, anywhere through our secure online banking platform. Check balances, transfer funds, and pay bills with ease.",
+    },
+    {
+      id: "features2",
+      title: "Mobile Banking App",
+      content: "Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.",
+    },
+    {
+      id: "features3",
+      title: "Secure Transactions",
+      content: "Rest assured knowing that your transactions are protected by industry-leading security measures. We employ encryption and multi-factor authentication to safeguard your financial information.",
+    },
+    {
+      id: "features4",
+      title: "Bill Pay and Transfers",
+      content: "Save time and avoid late fees with our convenient bill pay service. Set up recurring payments or make one-time transfers between your accounts with just a few clicks.",
+    },
+  ];

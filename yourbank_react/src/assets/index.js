@@ -15,6 +15,7 @@ import icon9 from "./icon9.png";
 import icon10 from "./icon10.png";
 import icon11 from "./icon11.png";
 import icon12 from "./icon12.png";
+import arrow from "./arrow.png";
 
 export {
     logo,
@@ -33,5 +34,6 @@ export {
     icon9,
     icon10,
     icon11,
-    icon12
+    icon12,
+    arrow
 };
