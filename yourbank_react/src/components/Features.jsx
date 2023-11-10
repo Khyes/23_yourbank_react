@@ -5,7 +5,7 @@ import './features.css';
 
 const Features = () => {
   return (
-    <section className='app__features'>
+    <section id='features' className='app__features'>
       <h1>Our <span>Features</span></h1>
       <p>Experience a host of powerful features at YourBank, including seamless online banking, secure transactions, and personalized financial insights, all designed to enhance your banking experience</p>
       <div className='app__features-content'> 

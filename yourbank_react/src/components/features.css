@@ -67,6 +67,8 @@
     right: 2rem;
     height: 34px;
     width: 34px;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(0) translateY(0);
 }
 
 .app__features-content_item h3 {
@@ -79,6 +81,10 @@
     min-width: 100%;
     font-size: 13px;
     margin-bottom: 0;
+}
+
+.app__features-content_item:hover img {
+    transform: translateX(5px) translateY(-5px);
 }
 
 @media screen and (max-width: 1040px) {
@@ -114,16 +120,4 @@
     .app__features-content_choices button {
         font-size: 12px;
     }
-
-    .app__usecase-cards-item div {
-        width: 100px;
-    }
-
-    .bg-image,
-    .bg-image-bottom {
-        width: 124px;
-        height: 113px;
-    }
-
-
 }

@@ -1,0 +1,95 @@
+.app__faq {
+    padding: 1rem 8rem;
+    margin-top: 4rem;
+}
+
+
+.app__faq h1 {
+    align-self: flex-start;
+    font-weight: 400;
+    color: var(--absolute-white);
+}
+
+.app__faq p {
+    align-self: flex-start;
+    max-width: 90%;
+    color: var(--gray-70);
+    font-weight: 300;
+    margin-top: 0;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+.app__faq-content {
+    margin-top: 3rem;
+    position: relative;
+}
+
+.app__faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.app__faq-content_item {
+    border: 1px solid var(--gray-15);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.app__faq-content_item h3 {
+    color: var(--absolute-white);
+    font-weight: 400;
+}
+
+.app__faq-content_item p {
+    min-width: 100%;
+    margin-bottom: 0;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 1rem;
+    background-color: var(--gray-15);
+}
+
+.overlay {
+    background: rgb(25,25,25);
+    background: linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0) 75%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.app__faq-content button {
+    z-index: 10;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--gray-11);
+    border: 1px solid var(--gray-15);
+    color: var(--absolute-white);
+}
+
+.app__faq-content button svg {
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 850px) {
+    .app__faq-grid {
+        grid-template-columns: 1fr;
+    }
+} 
+
+@media screen and (max-width: 550px) {
+    .app__faq {
+        width: 300px;
+        padding: 0;
+    }
+
+}

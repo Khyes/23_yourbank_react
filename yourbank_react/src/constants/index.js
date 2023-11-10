@@ -168,3 +168,26 @@ export const navLinks = [
       content: "Save time and avoid late fees with our convenient bill pay service. Set up recurring payments or make one-time transfers between your accounts with just a few clicks.",
     },
   ];
+
+  export const faqs = [
+    {
+      id: "features1",
+      title: "How do I open an account with YourBank?",
+      content: 'Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.',
+    },
+    {
+      id: "features2",
+      title: "What documents do I need to provide to apply for a loan?",
+      content: 'Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.',
+    },
+    {
+      id: "features3",
+      title: "How can I access my accounts online?",
+      content: "Accessing your accounts online is simple and secure. Visit our website and click on the 'Login' button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the 'Enroll Now' button and follow the registration process. If you need assistance, our customer support team is available to guide you.",
+    },
+    {
+      id: "features4",
+      title: "Are my transactions and personal information secure?",
+      content: "At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly update our security measures to stay ahead of emerging threats. You can bank with confidence knowing that we have robust security systems in place.",
+    },
+  ];
