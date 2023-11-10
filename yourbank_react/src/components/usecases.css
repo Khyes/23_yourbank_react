@@ -1,0 +1,231 @@
+.app__usecase {
+    padding: 1rem 8rem;
+    margin-top: 4rem;
+}
+
+.app__usecase h1 {
+    align-self: flex-start;
+    font-weight: 400;
+}
+
+.app__usecase p {
+    align-self: flex-start;
+    max-width: 60%;
+    color: var(--gray-70);
+    font-weight: 300;
+    margin-top: 0;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+.app__usecase-content_top,
+.app__usecase-content_bottom {
+    display: flex;
+}
+.app__usecase-content_top {
+    margin-bottom: 3rem;
+}
+
+.app__usecase-cards {
+    background-color: var(--gray-11);
+    border-radius: 2rem;
+    position: relative;
+    padding: 2rem;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 224px;
+    height: 213px;
+    z-index: 0;
+}
+
+.bg-image-bottom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 224px;
+    height: 213px;
+    z-index: 0;
+}
+
+.app__usecase-cards-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.app__usecase-cards-item img {
+    width: 78px;
+    height: 78px;
+}
+
+.app__usecase-cards-item div {
+    text-align: center;
+    background-color: var(--gray-10);
+    border: 1px solid var(--gray-15);
+    border-radius: 2rem;
+    padding: 2rem 2rem;
+    width: 250px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.app__usecase-cards-item div:hover {
+    box-shadow: 0px 0px 33px 6px var(--green-60-dim),
+            inset 0px 0px 33px 6px var(--green-60-dim),
+            0px 0px 26px -14px var(--green-60);
+}
+
+.app__usecase-cards-item div p {
+   min-width: 100%;
+   margin: 1rem 0;
+}
+
+.app__usecase-percentages:nth-child(2) {
+    justify-self: flex-end;
+    margin-left: 3rem;
+}
+
+.app__usecase-percentages:nth-child(1) {
+    margin-right: 3rem;
+}
+
+.app__usecase-percentages h2 {
+    color: var(--absolute-white);
+    font-weight: 500;
+}
+
+.app__usecase-percentages p {
+    min-width: 100%;
+}
+
+.percentages__items-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.percentages__items-container h3 {
+    color: var(--green-60);
+    margin-bottom: 0;
+    font-size: 2.5em;
+}
+
+.percentages__items-container p {
+    font-size: 12px;
+}
+
+.app__usecase-percentages button {
+    color: var(--absolute-white);
+    font-weight: 300;
+    padding: 0.8rem 1.4rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .app__usecase-cards-item div {
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 13px;
+    }
+    
+    .app__usecase-percentages p:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .app__usecase-percentages button {
+        margin-top: 2rem;
+    }
+
+    .app__usecase {
+        padding: 1rem 5rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .app__usecase {
+        padding: 1rem 8rem;
+        text-align: center;
+    }
+
+    .app__usecase p {
+        max-width: 100%;
+    }
+
+    .app__usecase-content_top,
+    .app__usecase-content_bottom {
+        flex-direction: column;
+    }   
+
+
+
+    .app__usecase-cards-item {
+        align-tracks: center;
+        justify-tracks: center;
+    }
+
+    .app__usecase-content_top {
+        flex-direction: column-reverse;
+    }
+
+    .app__usecase-percentages:nth-child(2) {
+        margin-left: 0;
+    }
+    .app__usecase-percentages:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .percentages__items-container {
+        justify-content: center;
+    }
+
+    .app__usecase-percentages button {
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .app__usecase {
+        text-align: center;
+        padding: 1rem 2rem;
+        margin-top: 4rem;
+        width: 500px;
+    }
+
+
+    .app__usecase-cards {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .app__usecase-cards-item div {
+        width: 150px;
+    }
+    
+
+}
+
+@media screen and (max-width: 550px) {
+    p {
+        font-size: 12px;
+    }
+
+    .app__usecase {
+        width: 300px;
+    }
+
+    .app__usecase-cards-item div {
+        width: 100px;
+    }
+
+    .bg-image,
+    .bg-image-bottom {
+        width: 124px;
+        height: 113px;
+    }
+
+
+}

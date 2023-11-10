@@ -3,23 +3,15 @@ import React, { useState } from 'react';
 import { logo } from '../assets';
 import { navLinks } from '../constants';
 import { Button } from '../components';
-import { MagicMotion } from "react-magic-motion";
-
 import { HiBars3BottomRight, HiMiniXMark } from 'react-icons/hi2';
 
-
-
-
 import './navbar.css'
-
-
-
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState(''); // State to keep track of the active link
   const [toggle, setToggle] = useState(false);
 
-
+  
   const handleNavLinkClick = (id) => {
     setActiveLink(id); // Update the active link when a link is clicked
   };

@@ -7,6 +7,7 @@
 
   /* Green variables */
   --green-60: #CAFF33;
+  --green-60-dim: rgba(201, 255, 51, 0.1);
   --green-65: #D1FF4C;
   --green-70: #D8FF66;
   --green-80: #E5FF99;
@@ -32,7 +33,11 @@
   --gray-60: #98989A;
   --gray-70: #B3B3B3;
   --gray-75: #BFBFBF;
+
 }
+
+
+
 
 body {
   margin: 0;
@@ -54,4 +59,21 @@ body {
 
 .hidden {
   display: none;
+}
+
+span {
+  color: var(--green-60);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.black-button {
+    display: flex;
+    align-self: center;
+    background-color: var(--gray-11);
+    border: 1px solid var(--gray-15);
+    border-radius: 2rem;
+    padding: 0.5rem;
 }

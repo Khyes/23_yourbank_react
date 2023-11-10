@@ -8,6 +8,8 @@ import UseCases from "./UseCases";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Header from "./Header";
+import Percentage from "./Percentage";
+import SquareIcon from "./SquareIcon";
 
 export {
   Navbar,
@@ -20,4 +22,6 @@ export {
   Footer,
   Testimonials,
   Header,
+  Percentage,
+  SquareIcon
 };
